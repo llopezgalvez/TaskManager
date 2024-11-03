@@ -1,0 +1,90 @@
+.login-container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.login-content{
+    background-color: #3F3F46;
+    backdrop-filter: blur(100px);
+    height: 100%
+}
+
+.titulo-login{
+    color: black;
+    font-size: xx-large;
+    margin-bottom: 1em;
+}
+
+.auth-form-login{
+    height: 100%;
+    width: 100%;
+    padding: 4em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+Input{
+    background-color: transparent;
+    border: none;
+    border-bottom: solid white .1em;
+    margin: 1em;
+    transition: 
+        transform .2s ease-in-out,
+        border-bottom .1s ease-in-out,
+        background-color .3s ease-in-out,
+        color .2s ease-in-out;
+}
+
+Input:focus{
+    background: white;
+    transform: scale(110%);
+    color: rgb(0, 0, 0);
+    outline: none;
+    border-bottom: solid rgb(0, 204, 255) .2em;
+}
+
+label{
+    font-family: consolas;
+    color: white;
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+
+.button-log{
+    background-color:  #3F3F46;
+    width: 5em;
+    font-size: large;
+    margin: 1em;
+    padding: .1em;
+    color: white;
+    transition: transform .3s ease-in-out, background-color .2s ease-in-out, color .2s ease-in-out;
+}
+
+.button-log:hover{
+    transform: scale(110%);
+    cursor: pointer;
+    background-color:white;
+    color:  #3F3F46;
+}
+
+.register-go{
+    background-color:white;
+    color:  #3F3F46;
+    width: 6em;
+    font-size: large;
+    margin: 1em;
+    padding: .1em;
+    transition: transform .3s ease-in-out, background-color .2s ease-in-out, color .2s ease-in-out;
+}
+
+.register-go:hover{
+    transform: scale(110%);
+    cursor: pointer;
+    background-color: #3F3F46;
+    color: white;
+}
